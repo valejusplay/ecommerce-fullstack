@@ -21,6 +21,7 @@ docs/
 # Editores
 .vscode/
 .idea/
+*.code-workspace
 *.swp
 
 # Sistema operativo
