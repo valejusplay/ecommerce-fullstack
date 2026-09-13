@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"name": "NexoGamer",
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.exclude": {
+			"**/node_modules": true
+		},
+		"search.exclude": {
+			"**/node_modules": true,
+			"**/dist": true,
+			"**/pnpm-lock.yaml": true
+		},
+		"files.eol": "\n",
+		"editor.formatOnSave": true,
+		"javascript.preferences.importModuleSpecifierEnding": "js"
+	}
+}
