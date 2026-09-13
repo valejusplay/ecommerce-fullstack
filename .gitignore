@@ -1,0 +1,34 @@
+# Dependencias
+node_modules/
+.pnpm-store/
+
+# Builds
+dist/
+build/
+.vite/
+
+# Variables de entorno (NUNCA versionar credenciales)
+.env
+.env.local
+.env.*.local
+
+# Documentacion interna de trabajo
+docs/
+
+# Documentos de referencia locales
+*.pdf
+
+# Editores
+.vscode/
+.idea/
+*.swp
+
+# Sistema operativo
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*

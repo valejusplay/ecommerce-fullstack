@@ -1,0 +1,14 @@
+# Normaliza los finales de linea: el repositorio guarda siempre LF, que es lo
+# que espera el entorno Linux de Render. En Windows el checkout sigue usando
+# CRLF sin que eso ensucie los diffs.
+* text=auto eol=lf
+
+# Binarios: no tocar.
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.woff binary
+*.woff2 binary
